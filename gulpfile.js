@@ -5,8 +5,6 @@ gulp.task('default', [ 'build', 'push']);
 
 gulp.task('push',
   shell.task(
-    "git ci -am 'deploy to github'"+
-    ";"+
     "git push origin master",
     { verbose: true }
   )
@@ -16,7 +14,8 @@ gulp.task('build', shell.task([
       'gitbook build;'+
       'rm -fR docs/*;'+
       'mv _book/* docs/;'+
-      'git add docs;'
+      'git add docs;'+
+      "git ci -am 'deploy to github';"
     ],
     { verbose: true }
 ));
