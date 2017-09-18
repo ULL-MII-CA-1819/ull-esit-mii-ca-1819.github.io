@@ -14,9 +14,7 @@ gulp.task('push',
   )
 );
 
-gulp.task('build', shell.task([
-      'gitbook build; rm -fR docs; mv _book docs;'
-      ],
+gulp.task('build', shell.task([ 'gitbook build; rm -fR docs; mv _book docs;' ],
       { verbose: true }
 ));
 
