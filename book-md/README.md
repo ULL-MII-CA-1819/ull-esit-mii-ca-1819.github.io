@@ -6,5 +6,4 @@ Enlaces relacionados:
 * [GitHub Organization](https://github.com/ULL-ESIT-MII-CA-1718)
 * [Campus Virtual](https://campusvirtual.ull.es/1718/course/view.php?id=6506)
 * [Guía Docente](https://e-guia.ull.es/etsii/query.php?codigo=135750932)
-* [Introduction](README.md)
 
