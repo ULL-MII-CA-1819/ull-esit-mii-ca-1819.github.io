@@ -20,7 +20,7 @@ gulp.task('build', shell.task([
     { verbose: true }
 ));
 
-// "serve": "gitbook serve txt gh-pages",
+// "serve": "gitbook serve docs",
 gulp.task('serve', shell.task(
     ['gitbook serve --lrport 9999 --port 43210 `pwd` docs']
   )
