@@ -5,8 +5,6 @@ gulp.task('default', [ 'build', 'push']);
 
 gulp.task('push',
   shell.task(
-    "git add docs"+
-    ";"+
     "git ci -am 'deploy to github'"+
     ";"+
     "git push origin master",
@@ -14,8 +12,13 @@ gulp.task('push',
   )
 );
 
-gulp.task('build', shell.task([ 'gitbook build; rm -fR docs; mv _book docs;' ],
-      { verbose: true }
+gulp.task('build', shell.task([ 
+      'gitbook build;'+
+      'rm -fR docs/*;'+
+      'mv _book/* docs/;'+
+      'git add docs;'
+    ],
+    { verbose: true }
 ));
 
 // "serve": "gitbook serve txt gh-pages",
