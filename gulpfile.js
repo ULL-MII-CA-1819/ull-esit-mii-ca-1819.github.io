@@ -1,7 +1,8 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
-gulp.task('default', [ 'build', 'push']);
+gulp.task('default', [ 'deploy' ]);
+gulp.task('deploy', [ 'build', 'push']);
 
 gulp.task('push',
   shell.task(
