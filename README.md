@@ -1,5 +1,5 @@
 * [Computación Avanzada 17/18. Página Web en GitHub](https://ull-esit-mii-ca-1718.github.io/docs/index.html)
-* [Computación Avanzada 18/19. Página Web en GitHub](https://ull-mii-ca-1819.github.io/docs/docs/index.html))
+* [Computación Avanzada 18/19. Página Web en GitHub](https://ull-mii-ca-1819.github.io/docs/index.html)
 
 # GitBook Boilerplate
 
