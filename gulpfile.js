@@ -33,8 +33,13 @@ gulp.task('serve', shell.task(
 
 
 // open browser
-gulp.task('opengh', function() {
+gulp.task('open1718', function() {
   return gulp.src('').pipe(shell(['open https://ull-esit-mii-ca-1718.github.io/docs/']));
+});
+
+// open browser
+gulp.task('opengh', function() {
+  return gulp.src('').pipe(shell(['open https://ull-mii-ca-1819.github.io/']));
 });
 
 // open browser at local
