@@ -3,7 +3,7 @@
 Enlaces relacionados:
 
 * [Classroom](https://classroom.github.com/classrooms/40031628-ull-mii-ca-1819)
-* [GitHub Organization](https://github.com/ULL-ESIT-MII-CA-1819)
+* [GitHub Organization](https://github.com/ULL-MII-CA-1819)
 * [Campus Virtual](https://campusvirtual.ull.es/1819/course/view.php?id=2805)
 * [Guía Docente](https://www.ull.es/apps/guias/guias/view_subject_guide/135750932/)
 
