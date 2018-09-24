@@ -10,7 +10,11 @@ gulp.task('push',
   )
 );
 
-gulp.task('build', shell.task([ 
+gulp.task("install", shell.task(
+      'gitbook install;'
+));
+
+gulp.task('build', shell.task([
       'gitbook build;'+
       'rm -fR docs/*;'+
       'mv _book/* docs/;'+
@@ -27,7 +31,7 @@ gulp.task('serve', shell.task(
 );
 
 
-// open browser 
+// open browser
 gulp.task('opengh', function() {
   return gulp.src('').pipe(shell(['open https://ull-esit-mii-ca-1718.github.io/docs/']));
 });
@@ -36,4 +40,3 @@ gulp.task('opengh', function() {
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open localhost:4000']));
 });
-
