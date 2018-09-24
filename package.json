@@ -42,6 +42,7 @@
   "gitbook": "^2.1.0",
   "gitbook-cli": "^0.3.4",
   "dependencies": {
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "scapegoat": "git+ssh://git@github.com/brentertz/scapegoat.git#0.1.0"
   }
 }
